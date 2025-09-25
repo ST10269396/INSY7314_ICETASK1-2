@@ -1,5 +1,6 @@
 import express from "express";
 import db from "./db/conn.mjs";
+import posts from "./routes/post.mjs";
 
 const app = express();
 const urlprefix = "/api";
